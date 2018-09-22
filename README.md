@@ -22,7 +22,6 @@ $ npm run dev
 ### Deploy Server: [Heroku](https://dashboard.heroku.com/)
 ```
 $ heroku login
-$ git add .
-$ git commit -am "Comment"
-$ git push heroku master
+$ npm run heroku:add "working-gear"
+$ npm run deploy:heroku
 ```
